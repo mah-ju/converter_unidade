@@ -76,4 +76,9 @@ return;
 
 convertButton.addEventListener("click", convert);
 
-
+document.addEventListener("DOMContentLoaded", ()=>{
+    inputElement.value = "";
+    outputElement.value = "";
+    toElement.value = "m";
+    fromElement.value = "m";
+});
